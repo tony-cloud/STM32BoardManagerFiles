@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "STM32GENERIC",
+      "name": "STM32",
       "websiteURL": "https://github.com/tony-cloud/STM32GENERIC",
       "maintainer": "STM32GENERIC",
       "email": "tonylu@tony-cloud.com",
