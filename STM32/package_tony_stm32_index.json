@@ -33,6 +33,16 @@
             {"name": "STM32F407xG"}
           ],
 		  "toolsDependencies": [
+	  	    {
+              "packager": "STM32",
+              "name": "arm-none-eabi-gcc",
+              "version": "6-2017-q1-update"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "1.0.1"
+            },
             {
               "packager": "arduino",
               "name": "CMSIS",
@@ -42,6 +52,73 @@
         }
       ],
 	  "tools": [
+	  {
+          "name": "arm-none-eabi-gcc",
+          "version": "6-2017-q1-update",
+          "systems": [
+            {
+              "size": "91550932",
+              "checksum": "SHA-256:f8b058a319759fa00b5d396cea235ea79a269de298d3b7fc661fab5ae52475d7",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-windows.tar.gz",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-windows.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "85435005",
+              "checksum": "SHA-256:da7886bcb1023d17af22cef308f59df37297625344de7598e642ed77d3dc438e",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-mac.tar.gz",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-mac.tar.gz",
+              "host": "x86_64-apple-darwin"
+            },
+            {
+              "size": "79681392",
+              "checksum": "SHA-256:0f5df0a90e72b13ebff418ff17dfbb654eaa7d8ea9504ddc1ad05c46707c8ca5",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-linux64.tar.gz",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-linux64.tar.gz",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "78486827",
+              "checksum": "SHA-256:cda742224f579a06f5209bc3c55dbf51667604308eaff51cde6cfeed4fedc5ae",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q1-update-linux32.tar.gz",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q1-update-linux32.tar.gz",
+              "host": "i686-pc-linux-gnu"
+            }
+          ]
+        },
+	  "name": "STM32Tools",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i386-apple-darwin11"
+            }
+          ]
+        }
       ]
     }
   ]
