@@ -6,13 +6,13 @@
       "maintainer": "STM32GENERIC",
       "email": "tonylu@tony-cloud.com",
       "help": {
-        "online": "https://danieleff.github.io/STM32GENERIC/"
+        "online": "https://danieleff.github.io/STM32GENERIC"
       },
       "platforms": [
         {
           "name": "STM32GENERIC",
           "architecture": "STM32",
-          "version": "0.9.9.alpha",
+          "version": "0.9.9",
           "category": "Tony",
           "url": "https://github.com/tony-cloud/STM32GENERIC/archive/0.9.9.alpha.tar.gz",
           "archiveFileName": "0.9.9.alpha.tar.gz",
