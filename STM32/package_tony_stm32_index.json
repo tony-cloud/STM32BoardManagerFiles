@@ -31,7 +31,7 @@
 			{"name": "GD32F103RE"},
             {"name": "STM32F407xE"},
             {"name": "STM32F407xG"}
-          ],
+          ]
         }
         
       ]
