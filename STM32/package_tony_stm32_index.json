@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "STM32",
+      "name": "STM32GENERIC",
       "websiteURL": "https://github.com/tony-cloud/STM32GENERIC",
       "maintainer": "STM32GENERIC",
       "email": "tonylu@tony-cloud.com",
@@ -34,12 +34,12 @@
           ],
 		  "toolsDependencies": [
 	  	    {
-              "packager": "STM32",
+              "packager": "STM32GENERIC",
               "name": "arm-none-eabi-gcc",
               "version": "6-2017-q1-update"
             },
             {
-              "packager": "STM32",
+              "packager": "STM32GENERIC",
               "name": "STM32Tools",
               "version": "1.0.1"
             },
@@ -86,6 +86,7 @@
             }
           ]
         },
+	    {
 	  "name": "STM32Tools",
           "version": "1.0.1",
           "systems": [
