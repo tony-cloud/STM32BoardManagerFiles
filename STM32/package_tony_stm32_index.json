@@ -11,9 +11,9 @@
       "platforms": [
         {
           "name": "STM32GENERIC",
-          "architecture": "STM32",
+          "architecture": "stm32",
           "version": "0.9.9",
-          "category": "Tony",
+          "category": "Contributed",
           "url": "https://github.com/tony-cloud/STM32GENERIC/archive/0.9.9.alpha.tar.gz",
           "archiveFileName": "0.9.9.alpha.tar.gz",
           "checksum": "SHA-256:3ab89b76d0fa8d7b8dbd547955da3b1063a77eb1f4d98efe62c3c3a2a7a00f8d",
