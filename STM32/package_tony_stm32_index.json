@@ -20,20 +20,19 @@
           "size": "271789286",
           "boards": [
             {"name": "STM32F030F"},
-			{"name": "STM32F103Cx"},
+            {"name": "STM32F103Cx"},
             {"name": "STM32F103R"},
             {"name": "STM32F103V"},
             {"name": "STM32F103Z"},
             {"name": "STM32F401S"},
             {"name": "STM32l152Cx"},
             {"name": "STM32F746S"},
-			{"name": "GD32F103RB"},
-			{"name": "GD32F103RE"},
+            {"name": "GD32F103RB"},
+            {"name": "GD32F103RE"},
             {"name": "STM32F407xE"},
             {"name": "STM32F407xG"}
           ]
         }
-        
       ]
     }
   ]
