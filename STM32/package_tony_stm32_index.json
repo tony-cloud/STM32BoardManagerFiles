@@ -121,6 +121,47 @@
               "version": "4.5.0"
             }
           ]
+        },
+		{
+          "name": "STM32GENERIC",
+          "architecture": "STM32",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://dl.tony-cloud.com/tony-cloud/STM32GENERIC/archive/1.0.2.tar.gz",
+          "archiveFileName": "1.0.2.tar.gz",
+          "checksum": "SHA-256:15af96489665799099e74b6049dc28dbc3278cafbea45b934955985bd3e92fd8",
+          "size": "64830747",
+          "boards": [
+            {"name": "STM32F030F"},
+            {"name": "STM32F103Cx"},
+            {"name": "STM32F103R"},
+            {"name": "STM32F103V"},
+            {"name": "STM32F103Z"},
+            {"name": "STM32F401S"},
+            {"name": "STM32l152Cx"},
+            {"name": "STM32F746S"},
+            {"name": "GD32F103RB"},
+            {"name": "GD32F103RE"},
+            {"name": "STM32F407xE"},
+            {"name": "STM32F407xG"}
+          ],
+          "toolsDependencies": [
+		    {
+              "packager": "STM32GENERIC",
+              "name": "arm-none-eabi-gcc",
+              "version": "5.4.1-2016q2"
+            },
+            {
+              "packager": "STM32GENERIC",
+              "name": "STM32Tools",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
         }
       ],
 	  "tools": [
