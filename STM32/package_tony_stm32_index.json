@@ -11,7 +11,7 @@
       "platforms": [
         {
           "name": "STM32GENERIC",
-          "architecture": "stm32",
+          "architecture": "STM32, HALMX",
           "version": "0.9.9",
           "category": "Contributed",
           "url": "https://github.com/tony-cloud/STM32GENERIC/archive/0.9.9.beta.tar.gz",
