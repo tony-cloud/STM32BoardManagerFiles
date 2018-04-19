@@ -64,6 +64,16 @@
             {"name": "STM32F407xG"}
           ],
           "toolsDependencies": [
+		    {
+              "packager": "STM32",
+              "name": "arm-none-eabi-gcc",
+              "version": "5.4.1-2016q2"
+            },
+            {
+              "packager": "STM32",
+              "name": "STM32Tools",
+              "version": "1.0.0"
+            },
             {
               "packager": "arduino",
               "name": "CMSIS",
@@ -73,37 +83,70 @@
         }
       ],
 	  "tools": [
-	  
 	    {
-	  "name": "STM32Tools",
-          "version": "1.0.1",
+          "name": "arm-none-eabi-gcc",
+          "version": "5.4.1-2016q2",
           "systems": [
             {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "i686-linux-gnu"
-            },
-            {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "x86_64-pc-linux-gnu"
-            },
-            {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "size": "87264643",
+              "checksum": "SHA-256:4888eebfa1039a0a12189b5be2f7e420ea05da8605f9207f66d2f018ace74cc8",
+              "archiveFileName": "gcc-arm-none-eabi.tar.bz2",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.bz2",
               "host": "i686-mingw32"
             },
             {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "size": "88715718",
+              "checksum": "SHA-256:0305683c9a7cd368c6cff891883979982f3917ae6edc38fd64f920c188ad4972",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "host": "x86_64-apple-darwin"
+            },
+            {
+              "size": "83912523",
+              "checksum": "SHA-256:81c5b83fd134a34a2f1dd1bd93ece223d4a511134932d41e5dd54a00943c0402",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "82511589",
+              "checksum": "SHA-256:8384a1200b770b34d3a31f41b4125bb9c7707fa69ecaf8b9f3afe9b2b01fa98c",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "host": "i686-pc-linux-gnu"
+            }
+          ]
+        },
+	    {
+	  "name": "STM32Tools",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "size": "53366085",
+              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "53366085",
+              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "53366085",
+              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "53366085",
+              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i386-apple-darwin11"
             }
           ]
