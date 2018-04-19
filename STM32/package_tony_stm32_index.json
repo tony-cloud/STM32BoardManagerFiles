@@ -40,44 +40,44 @@
             }
           ]
         }
-      ],
-	  "tools": [
-	  
-	    {
-	  "name": "STM32Tools",
-          "version": "1.0.1",
-          "systems": [
+		
+		{
+          "name": "STM32GENERIC",
+          "architecture": "STM32, HALMX",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/tony-cloud/STM32GENERIC/archive/1.0.0.tar.gz",
+          "archiveFileName": "1.0.0.tar.gz",
+          "checksum": "SHA-256:05240edeb6b4e056d3e82a17c2cac60e5ef3fd1ab265ee3cecc33b9705a02a28",
+          "size": "272224924",
+          "boards": [
+            {"name": "STM32F030F"},
+            {"name": "STM32F103Cx"},
+            {"name": "STM32F103R"},
+            {"name": "STM32F103V"},
+            {"name": "STM32F103Z"},
+            {"name": "STM32F401S"},
+            {"name": "STM32l152Cx"},
+            {"name": "STM32F746S"},
+            {"name": "GD32F103RB"},
+            {"name": "GD32F103RE"},
+            {"name": "STM32F407xE"},
+            {"name": "STM32F407xG"}
+          ],
+          "toolsDependencies": [
             {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "i686-linux-gnu"
-            },
-            {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "x86_64-pc-linux-gnu"
-            },
-            {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "i686-mingw32"
-            },
-            {
-              "size": "7929670",
-              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
-              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
-              "host": "i386-apple-darwin11"
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
             }
           ]
         }
+		
       ]
+	  
+	  
+	  
+	  
     }
   ]
 }
