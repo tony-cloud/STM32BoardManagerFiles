@@ -170,10 +170,10 @@
           "version": "5.4.1-2016q2",
           "systems": [
             {
-              "size": "87264643",
-              "checksum": "SHA-256:4888eebfa1039a0a12189b5be2f7e420ea05da8605f9207f66d2f018ace74cc8",
-              "archiveFileName": "gcc-arm-none-eabi.tar.bz2",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.bz2",
+              "size": "100269158",
+              "checksum": "SHA-256:d91a5aea3b8fd4ba4394a47e983b179a418f2fff3c7059c5b84557a15db9db5f",
+              "archiveFileName": "gcc-arm-none-eabi.tar.gz",
+              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
               "host": "i686-mingw32"
             },
             {
@@ -204,29 +204,29 @@
           "version": "1.0.0",
           "systems": [
             {
-              "size": "53366085",
-              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "size": "54236811",
+              "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i686-linux-gnu"
             },
             {
-              "size": "53366085",
-              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "size": "54236811",
+              "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "x86_64-pc-linux-gnu"
             },
             {
-              "size": "53366085",
-              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "size": "54236811",
+              "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i686-mingw32"
             },
             {
-              "size": "53366085",
-              "checksum": "SHA-256:ce923cc0c9d1889d5a39191b6a856df7891735b0fb6e80a764670ca37aad16eb",
+              "size": "54236811",
+              "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i386-apple-darwin11"
