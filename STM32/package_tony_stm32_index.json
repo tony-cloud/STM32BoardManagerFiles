@@ -72,12 +72,44 @@
             }
           ]
         }
-		
+      ],
+	  "tools": [
+	  
+	    {
+	  "name": "STM32Tools",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "7929670",
+              "checksum": "SHA-256:91dfc620f46b42707bba4a633ee8e332a1e2d7743a3204b130f9bc74b0933322",
+              "archiveFileName": "STM32Tools-2017.9.22.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/STM32Tools-2017.9.22.tar.bz2",
+              "host": "i386-apple-darwin11"
+            }
+          ]
+        }
       ]
-	  
-	  
-	  
-	  
     }
   ]
 }
