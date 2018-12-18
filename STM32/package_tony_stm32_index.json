@@ -168,8 +168,8 @@
           "architecture": "STM32",
           "version": "1.0.4",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.4.tar.gz",
-          "archiveFileName": "1.0.2.tar.gz",
+          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.4.zip",
+          "archiveFileName": "1.0.4.zip",
           "checksum": "SHA-256:74e52470683fb18a45c875aa08e79ba9e973448d94e13cff9615ba404b856273",
           "size": "84498175",
           "boards": [
