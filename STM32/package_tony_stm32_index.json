@@ -67,7 +67,7 @@
 		    {
               "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
-              "version": "5.4.1-2016q2"
+              "version": "7-2018-q2"
             },
             {
               "packager": "STM32_duino",
@@ -108,7 +108,7 @@
 		    {
               "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
-              "version": "5.4.1-2016q2"
+              "version": "7-2018-q2"
             },
             {
               "packager": "STM32_duino",
@@ -149,7 +149,7 @@
 		    {
               "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
-              "version": "5.4.1-2016q2"
+              "version": "7-2018-q2"
             },
             {
               "packager": "STM32_duino",
@@ -206,47 +206,13 @@
         }
       ],
 	  "tools": [
-	    {
-          "name": "arm-none-eabi-gcc",
-          "version": "5.4.1-2016q2",
-          "systems": [
-            {
-              "size": "100269158",
-              "checksum": "SHA-256:d91a5aea3b8fd4ba4394a47e983b179a418f2fff3c7059c5b84557a15db9db5f",
-              "archiveFileName": "gcc-arm-none-eabi.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
-              "host": "i686-mingw32"
-            },
-            {
-              "size": "88715718",
-              "checksum": "SHA-256:0305683c9a7cd368c6cff891883979982f3917ae6edc38fd64f920c188ad4972",
-              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
-              "host": "x86_64-apple-darwin"
-            },
-            {
-              "size": "83912523",
-              "checksum": "SHA-256:81c5b83fd134a34a2f1dd1bd93ece223d4a511134932d41e5dd54a00943c0402",
-              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
-              "host": "x86_64-pc-linux-gnu"
-            },
-            {
-              "size": "82511589",
-              "checksum": "SHA-256:8384a1200b770b34d3a31f41b4125bb9c7707fa69ecaf8b9f3afe9b2b01fa98c",
-              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
-              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
-              "host": "i686-pc-linux-gnu"
-            }
-          ]
-        },
         {
           "name": "arm-none-eabi-gcc",
           "version": "7-2018-q2",
           "systems": [
             {
               "size": "101258273",
-              "checksum": "SHA-256:d91a5aea3b8fd4ba4394a47e983b179a418f2fff3c7059c5b84557a15db9db5f",
+              "checksum": "SHA-256:a3d48e0eb8a1ec928f57e1c5c31169e74bbd7c291abefcf7bc792d893f3d6377",
               "archiveFileName": "gcc-arm-none-eabi.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
               "host": "i686-mingw32"
