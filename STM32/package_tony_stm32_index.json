@@ -65,12 +65,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -106,12 +106,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -147,12 +147,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -188,12 +188,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "arm-none-eabi-gcc",
               "version": "7-2018-q2"
             },
             {
-              "packager": "tony-cloud",
+              "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
