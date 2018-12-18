@@ -1,16 +1,16 @@
 {
   "packages": [
     {
-      "name": "STM32GENERIC",
-      "websiteURL": "https://github.com/tony-cloud/STM32GENERIC",
-      "maintainer": "STM32GENERIC",
+      "name": "STM32_duino",
+      "websiteURL": "https://github.com/tony-cloud/STM32_duino",
+      "maintainer": "tony-cloud",
       "email": "tonylu@tony-cloud.com",
       "help": {
         "online": "https://danieleff.github.io/STM32GENERIC"
       },
       "platforms": [
         {
-          "name": "STM32GENERIC",
+          "name": "STM32_duino",
           "architecture": "STM32",
           "version": "0.9.9",
           "category": "Contributed",
@@ -41,7 +41,7 @@
           ]
         },
 		{
-          "name": "STM32GENERIC",
+          "name": "STM32_duino",
           "architecture": "STM32",
           "version": "1.0.0",
           "category": "Contributed",
@@ -65,12 +65,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -82,11 +82,11 @@
           ]
         },
 		{
-          "name": "STM32GENERIC",
+          "name": "STM32_duino",
           "architecture": "STM32",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32GENERIC/archive/1.0.1.tar.gz",
+          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.1.tar.gz",
           "archiveFileName": "1.0.1.tar.gz",
           "checksum": "SHA-256:53923014103dacd0afee343b4dfec705c52367e59085c473a0d689f81463568e",
           "size": "64831190",
@@ -106,12 +106,12 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -123,7 +123,7 @@
           ]
         },
 		{
-          "name": "STM32GENERIC",
+          "name": "STM32_duino",
           "architecture": "STM32",
           "version": "1.0.2",
           "category": "Contributed",
@@ -147,12 +147,53 @@
           ],
           "toolsDependencies": [
 		    {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
               "name": "arm-none-eabi-gcc",
               "version": "5.4.1-2016q2"
             },
             {
-              "packager": "STM32GENERIC",
+              "packager": "tony-cloud",
+              "name": "STM32Tools",
+              "version": "1.0.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
+          "name": "STM32_duino",
+          "architecture": "STM32",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.4.tar.gz",
+          "archiveFileName": "1.0.2.tar.gz",
+          "checksum": "SHA-256:74e52470683fb18a45c875aa08e79ba9e973448d94e13cff9615ba404b856273",
+          "size": "84498175",
+          "boards": [
+            {"name": "STM32F030F"},
+            {"name": "STM32F103Cx"},
+            {"name": "STM32F103R"},
+            {"name": "STM32F103V"},
+            {"name": "STM32F103Z"},
+            {"name": "STM32F401S"},
+            {"name": "STM32l152Cx"},
+            {"name": "STM32F746S"},
+            {"name": "GD32F103RB"},
+            {"name": "GD32F103RE"},
+            {"name": "STM32F407xE"},
+            {"name": "STM32F407xG"}
+          ],
+          "toolsDependencies": [
+		    {
+              "packager": "tony-cloud",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2018-q2"
+            },
+            {
+              "packager": "tony-cloud",
               "name": "STM32Tools",
               "version": "1.0.0"
             },
@@ -171,6 +212,40 @@
           "systems": [
             {
               "size": "100269158",
+              "checksum": "SHA-256:d91a5aea3b8fd4ba4394a47e983b179a418f2fff3c7059c5b84557a15db9db5f",
+              "archiveFileName": "gcc-arm-none-eabi.tar.gz",
+              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "88715718",
+              "checksum": "SHA-256:0305683c9a7cd368c6cff891883979982f3917ae6edc38fd64f920c188ad4972",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-mac.tar.bz2",
+              "host": "x86_64-apple-darwin"
+            },
+            {
+              "size": "83912523",
+              "checksum": "SHA-256:81c5b83fd134a34a2f1dd1bd93ece223d4a511134932d41e5dd54a00943c0402",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux64.tar.bz2",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "82511589",
+              "checksum": "SHA-256:8384a1200b770b34d3a31f41b4125bb9c7707fa69ecaf8b9f3afe9b2b01fa98c",
+              "archiveFileName": "gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "url": "https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi-6-2017-q2-update-linux32.tar.bz2",
+              "host": "i686-pc-linux-gnu"
+            }
+          ]
+        },
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "7-2018-q2",
+          "systems": [
+            {
+              "size": "101258273",
               "checksum": "SHA-256:d91a5aea3b8fd4ba4394a47e983b179a418f2fff3c7059c5b84557a15db9db5f",
               "archiveFileName": "gcc-arm-none-eabi.tar.gz",
               "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
