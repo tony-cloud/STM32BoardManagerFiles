@@ -45,7 +45,7 @@
           "architecture": "STM32",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32GENERIC/archive/1.0.0.tar.gz",
+          "url": "https://github.com/tony-cloud/STM32GENERIC/archive/1.0.0.tar.gz",
           "archiveFileName": "1.0.0.tar.gz",
           "checksum": "SHA-256:05240edeb6b4e056d3e82a17c2cac60e5ef3fd1ab265ee3cecc33b9705a02a28",
           "size": "272224924",
@@ -86,7 +86,7 @@
           "architecture": "STM32",
           "version": "1.0.1",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.1.tar.gz",
+          "url": "https://github.com/tony-cloud/STM32_duino/archive/1.0.1.tar.gz",
           "archiveFileName": "1.0.1.tar.gz",
           "checksum": "SHA-256:53923014103dacd0afee343b4dfec705c52367e59085c473a0d689f81463568e",
           "size": "64831190",
@@ -127,7 +127,7 @@
           "architecture": "STM32",
           "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32GENERIC/archive/1.0.2.tar.gz",
+          "url": "https://github.com/tony-cloud/STM32GENERIC/archive/1.0.2.tar.gz",
           "archiveFileName": "1.0.2.tar.gz",
           "checksum": "SHA-256:15af96489665799099e74b6049dc28dbc3278cafbea45b934955985bd3e92fd8",
           "size": "64830747",
@@ -168,7 +168,7 @@
           "architecture": "STM32",
           "version": "1.0.4",
           "category": "Contributed",
-          "url": "https://dl.tony-cloud.com/tony-cloud/STM32_duino/archive/1.0.4.zip",
+          "url": "https://github.com/tony-cloud/STM32_duino/archive/1.0.4.zip",
           "archiveFileName": "1.0.4.zip",
           "checksum": "SHA-256:74e52470683fb18a45c875aa08e79ba9e973448d94e13cff9615ba404b856273",
           "size": "84498175",
@@ -214,7 +214,7 @@
               "size": "101258273",
               "checksum": "SHA-256:a3d48e0eb8a1ec928f57e1c5c31169e74bbd7c291abefcf7bc792d893f3d6377",
               "archiveFileName": "gcc-arm-none-eabi.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/gcc-arm-none-eabi.tar.gz",
               "host": "i686-mingw32"
             },
             {
@@ -248,28 +248,28 @@
               "size": "54236811",
               "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i686-linux-gnu"
             },
             {
               "size": "54236811",
               "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "x86_64-pc-linux-gnu"
             },
             {
               "size": "54236811",
               "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i686-mingw32"
             },
             {
               "size": "54236811",
               "checksum": "SHA-256:c4a0519295d8269d558e6d492cc8947eee0142cd8f74e0dcefa23962ccc301ee",
               "archiveFileName": "STM32Tools.tar.gz",
-              "url": "https://dl.tony-cloud.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
+              "url": "https://github.com/tony-cloud/STM32BoardManagerFiles/raw/master/STM32/tools/STM32Tools.tar.gz",
               "host": "i386-apple-darwin11"
             }
           ]
