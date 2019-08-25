@@ -156,12 +156,12 @@
 	{
           "name": "STM32_duino",
           "architecture": "STM32",
-          "version": "1.0.5",
+          "version": "1.0.5a",
           "category": "Contributed",
-          "url": "https://github.com/tony-cloud/STM32_duino/archive/1.0.5.zip",
-          "archiveFileName": "1.0.5.zip",
-          "checksum": "SHA-256:023ec5ceda48639aaaeab8bd246a2fc2627086af4167877a662d6ef139f48044",
-          "size": "63937069",
+          "url": "https://github.com/tony-cloud/STM32_duino/archive/1.0.5a.zip",
+          "archiveFileName": "1.0.5a.zip",
+          "checksum": "SHA-256:d3b3841308f2c451cc79f161960228147ee92868e283368a0d66d7fce5cb5e2d",
+          "size": "63865068",
           "boards": [
             {"name": "STM32F030F"},
             {"name": "STM32F103Cx"},
