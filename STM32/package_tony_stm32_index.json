@@ -12,37 +12,6 @@
         {
           "name": "STM32_duino",
           "architecture": "STM32",
-          "version": "0.9.9",
-          "category": "Contributed",
-          "url": "https://github.com/tony-cloud/STM32GENERIC/archive/0.9.9.beta.tar.gz",
-          "archiveFileName": "0.9.9.beta.tar.gz",
-          "checksum": "SHA-256:3ab89b76d0fa8d7b8dbd547955da3b1063a77eb1f4d98efe62c3c3a2a7a00f8d",
-          "size": "271789286",
-          "boards": [
-            {"name": "STM32F030F"},
-            {"name": "STM32F103Cx"},
-            {"name": "STM32F103R"},
-            {"name": "STM32F103V"},
-            {"name": "STM32F103Z"},
-            {"name": "STM32F401S"},
-            {"name": "STM32l152Cx"},
-            {"name": "STM32F746S"},
-            {"name": "GD32F103RB"},
-            {"name": "GD32F103RE"},
-            {"name": "STM32F407xE"},
-            {"name": "STM32F407xG"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            }
-          ]
-        },
-		{
-          "name": "STM32_duino",
-          "architecture": "STM32",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/tony-cloud/STM32GENERIC/archive/1.0.0.tar.gz",
@@ -73,11 +42,6 @@
               "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
             }
           ]
         },
@@ -114,11 +78,6 @@
               "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
             }
           ]
         },
@@ -155,11 +114,6 @@
               "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
             }
           ]
         },
@@ -196,11 +150,6 @@
               "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
             }
           ]
         },
@@ -237,11 +186,6 @@
               "packager": "STM32_duino",
               "name": "STM32Tools",
               "version": "1.0.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
             }
           ]
         }
